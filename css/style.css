@@ -1,0 +1,858 @@
+ؤ
+    
+img{
+    width: 100%;
+    margin-inline: auto;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+body {
+    padding-top: 80px;
+}
+
+
+
+/* *****************start hero section */
+
+#hero-section{
+
+}
+
+#hero-section .container .nav{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80px;
+    border: #E8E4FF 3px solid ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background-color: #F5F3FF;
+    box-sizing: border-box;
+    
+}
+
+#hero-section .container .logo{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    padding-left: 150px;
+    
+}
+#hero-section .container .nav img{
+    background-color:#8E51FF ;
+    width: 40px;
+    float: left;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 8px 8px;
+
+}
+#hero-section .container .nav h2{
+    padding-top: 5px;
+    margin-top: 10px;
+}
+/* ****************links **************8*/
+#hero-section .container .nav ul{
+    float: right;
+    width: 50%;
+    margin-top: 5px;
+
+}
+#hero-section .container .nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 15px;
+    position: relative;
+
+}
+#hero-section .container .nav ul li a.move::after{
+    content:"" ;
+    height: 2px;
+    width: 0;
+    background-color: #8E51FF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+#hero-section .container .nav ul li a.move:hover::after {
+    width: 100%;
+}
+
+#hero-section .container .nav ul li a{
+    padding: 10px;
+    position: relative;
+}
+/* **********************************************active link */
+#hero-section .container .nav ul li a.active::after{
+    content:"" ;
+    height: 2px;
+    width: 100%;
+    background-color: #8E51FF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+/* ************ start table************* */
+.mavic{
+    padding-block: 50px 50px;
+    background-color: #F7F5FF;
+    height: 100%;
+    width: 100%;
+}
+.mavic .compare{
+    background-color: #F7F5FF;
+    
+}
+.mavic .container .text h1,
+.mavic .container .text p {
+     padding-block: 30px ;
+     text-align: center;
+
+}
+.mavic .container .text span{
+    color: #8E51FF;
+}
+/* ============== thead ============== */
+.mavic  table{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    border: #D1D5DC solid 3px;
+    border-radius: 20px;
+    padding: 40px ;
+
+}
+.mavic table th{
+    padding: 50px;
+    border-bottom:  solid 2px ;
+    border-color: #D1D5DC;
+}
+.mavic table th span h3,
+.mavic table th span p{
+    color: #8E51FF;
+}
+.mavic table th p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #6A7282;
+}
+
+.mavic table td{
+    padding: 20px;
+    border-bottom:  solid 2px ;
+    border-color: #D1D5DC;
+}
+.mavic thead tr .box2{
+    background-color: #EDE9FE;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+/* ============= tbody ================= */
+.mavic tbody tr .icons img,
+.mavic tbody tr .icons span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.mavic tbody tr .icons img{
+    width: 20px;
+}
+
+.mavic tbody tr .check{
+    background-color: #EDE9FE;
+    height: 40px;
+}
+tbody tr .items{
+    background-color: #8E51FF;
+    width: fit-content;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px 10px;
+}
+tbody tr .items img,
+tbody tr .items span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+tbody tr .check img{
+    width: 20px;
+}
+tbody tr .check span{
+    color: white;
+}
+tbody tr .check img,
+tbody tr .check span{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+tbody tr td .color-red p {
+    color: #F65B08;
+
+}
+tbody tr .check .color-p {
+    color: #8E51FF;
+}
+tbody tr.boldd p{
+    font-weight: 900;
+}
+
+tbody tr.last1 td{
+    padding: 50px;
+    border-bottom: none;
+}
+ tbody tr.last1 .halfbold {
+    font-weight: 700;
+}
+
+tbody tr.last1 .halfbold img{
+    width: 20px;
+}
+tbody tr.last1 .bottom{
+    background-color: #EDE9FE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* =============end table=============== */
+
+/*  ************** winner section*********** */
+.winner{
+    padding-block: 50px;
+}
+.winner .inner{
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 50%;
+    border: #E5E7EB solid 2px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.winner .container .inner img{
+    width: 30px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 5px;
+
+}
+.winner .container .inner h3,
+.winner .container .inner span{
+    color: #00A63E;
+    display:block;
+    text-align: left;
+}
+/* **********************end compare**************  */
+
+/* =================== start feed back============== */
+.customer{
+    padding-block: 50px 50px;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    
+}
+.customer .container{
+    margin: auto;
+}
+.customer .inner .text h1,
+.customer .inner .text p {
+     padding-block: 15px ;
+     text-align: center;
+
+}
+.customer .inner  .text span{
+    color: #8E51FF;
+}
+.customer .inner .content{
+    width: 100%;
+    /* background-color: #00A63E; */
+}
+
+/* =========== rating box ============ */
+
+/* =============== start table============= */
+.customer .rating content{
+    overflow: hidden;
+}
+
+.customer .rating table{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: #E5E7EB solid 2px;
+    padding-bottom: 20px;
+    
+}
+
+.customer .rating table td{
+    padding: 8px;
+}
+/* ============== start rating=========== */
+.customer .inner .rating{
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: #E5E7EB solid 2px ;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+    float: left;
+
+}
+.customer .inner .rating h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+.customer .inner .rating img{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.customer .inner .rating p{
+    padding-top: 10px;
+}
+.customer .inner .bar1 {
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+
+
+.customer .inner .rating .test1{
+    width: 78%;
+    height: 100%;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+/* ============== tbody =============  */
+
+.customer .inner .bar2 {
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+.customer .inner .rating .test2{
+    width: 15%;
+    height: 100%;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.customer .inner .bar3 {
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+.customer .inner .rating .test3 {
+    width: 5%;
+    height: 100%;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.customer .inner .bar4 {
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+.customer .inner .rating .test4 {
+    width: 1.5%;
+    height: 100%;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.customer .inner .bar5 {
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #E5E7EB;
+    overflow: hidden;
+}
+.customer .inner .rating .test5 {
+    width: 0.5%;
+    height: 100%;
+    background-color: #F0B100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.customer .inner .rating .recomend{
+    display: inline-block;
+    text-align: center;
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+
+}
+
+.customer .inner .rating .recomend div{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.customer .inner .rating .recomend h1{
+    font-size: 25px;
+}
+.customer .inner .rating .recomend p{
+    font-size: 15px;
+}
+
+/* ============== start review cards============== */
+
+.customer .inner .reviews{
+    width: 60%;
+    margin-left: 100px;
+    border: #E5E7EB solid 2px;
+    border-radius: 25px;
+
+}
+
+.customer .inner .reviews .top{
+    text-align: center;
+    width: 100%;
+}
+.customer .inner .reviews .avatar{
+    display: inline-block;
+    width: fit-content;
+    vertical-align: top;
+    margin-right: 250px;
+}
+.customer .inner .reviews .date {
+    display: inline-block;
+    width: fit-content;
+    vertical-align: top;
+    margin-left: 5%;
+}
+     
+
+
+.customer .inner .reviews .avatar,
+.customer .inner .reviews .date {
+    display: inline-block;
+     margin-top: 20px;
+}
+
+
+.customer .inner .reviews .avatar img{
+    width: 60px;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.customer .inner .reviews .avatar .info {
+    display: inline-block;
+    vertical-align: top;
+}
+.customer .inner .reviews .stars{
+    text-align: center;
+}
+
+.customer .inner .reviews .stars img{
+    width: 20px;
+}
+.customer .inner .reviews .stars img,
+.customer .inner .reviews .stars span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.customer .inner .reviews .info span{
+    font-size: 14px;
+
+}
+
+.customer .inner .reviews .date span{
+    background-color: #EDE9FE;
+    color: #5D0EC0;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px 10px;
+
+}
+.customer .inner .reviews .date p{
+    padding-top: 5px;
+}
+.customer .inner .rating,
+.customer .inner .reviews {
+    float: left;
+    margin-top: 30px;
+}
+
+.customer .inner .reviews .text{
+    width: 90%;
+    margin-left: 50px;
+    /* background-color: lightgray; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.customer .inner .reviews .text p{
+    text-align: left;
+}
+
+
+/* =========== added */
+
+
+.customer .inner .rating,
+.customer .inner .reviews {
+    float: left;
+    margin-top: 30px;
+}
+.customer .inner .content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ==============button=============== */
+.customer .inner .content .btns button{
+    background-color: #7F22FE;
+    color: white;
+    border: #7F22FE solid 2px;
+    border-radius: 25px;
+    width: 20%;
+    height: 50px;
+    margin-left: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.customer .inner .content .btns button:hover{
+    background-color: white;
+    color: #7F22FE;
+}
+
+/* =================== end feed back===================== */
+
+/*  ************ start products****************   */
+.products{
+    background-color: #F7F5FF;
+    padding-block: 50px;
+     height: auto;
+
+}
+
+.products .container .text{
+    text-align: center;
+    margin-top: 30px;
+}
+.products .container .text span{
+    color: #7F22FE;
+}
+.products .parent2{
+    margin-top: 50px;
+}
+.products .parent2 .child1,
+.products .parent2 .child2,
+.products .parent2 .child3,
+.products .parent2 .child4 {
+    background-color: white;
+    /* width: 25%; */
+    width: 23%;
+    border-radius: 25px;
+    border: #E5E7EB solid 3px;
+    float: left;
+    
+    
+}
+.products .parent2 .child1 img,
+.products .parent2 .child2 img,
+.products .parent2 .child3 img,
+.products .parent2 .child4 img {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border-radius: 50px;
+
+
+}
+.products .parent2 .child1 h3,
+.products .parent2 .child2 h3,
+.products .parent2 .child3 h3,
+.products .parent2 .child4 h3{
+    text-align: left;
+    margin-left: 20px;
+}
+.products .parent2 .child1 p,
+.products .parent2 .child2 p,
+.products .parent2 .child3 p,
+.products .parent2 .child4 p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.products .parent2  .price{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+
+}
+.products .parent2  .price p{
+    float: left;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+
+    
+}
+.products .parent2  .price .btn{
+    float: right;
+    margin-bottom: 20px;
+}
+.products .parent2  .price .btn button{
+    width: 120px;
+    height: 50px;
+    background-color: #8E51FF;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.products .parent2 .price {
+    box-sizing: border-box;
+}
+
+.products .parent2 .child1,
+.products .parent2 .child2,
+.products .parent2 .child3,
+.products .parent2 .child4 {
+    width: calc((100% - 60px) / 4);
+    margin-right: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.products .parent2 .child4 {
+    margin-right: 0;
+}
+
+.products .parent2 img {
+    transition: transform 0.3s;
+}
+
+.products .parent2 img:hover {
+    transform: scale(1.03);
+}
+
+/* ***************** colored span*************** */
+
+.products .parent2 .child1,
+.products .parent2 .child2,
+.products .parent2 .child3,
+.products .parent2 .child4 {
+    position: relative;
+}
+
+.products .parent2 span {
+    width: fit-content;
+    height: 30px;
+    color: white;
+    border-radius: 25px;
+    padding: 4px 4px;
+
+    z-index: 1999;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.products .parent2 .child1 span {
+    background-color: #00BBA7;
+}
+
+.products .parent2 .child2 span {
+    background-color: #00C950;
+}
+
+.products .parent2 .child3 span {
+    background-color: #00B8DB;
+}
+
+.products .parent2 .child4 span {
+    background-color: #FF6900;
+}
+
+
+
+/* ========== btn=============== */
+.products .parent .view{
+    /* clear: both; */
+    text-align: center;
+}
+.products .parent .view button{
+    background-color: white;
+    color: #7F22FE;
+    border:#7F22FE solid 2px;
+    border-radius: 25px;
+    width: 20%;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.products .parent .view button:hover{
+    background-color: #7F22FE;
+    color: white;
+}
+
+
+/*  ************ end products****************   */
+
+/* <!-- ================ start footer ============= --> */
+
+.footer{
+    background-color: #101828;
+    width: 100%;
+    height: 100vh;
+}
+.footer .inner{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding-top: 100px;
+
+}
+
+.footer .inner .part1{
+    width: 25%;
+}
+.footer .inner .part1 > img {
+    width: 40px;
+    background-color: #7F22FE;
+     border-radius: 25%;
+     padding: 8px 8px;
+     margin-top: 20px;
+}
+.footer .inner img,
+.footer .inner h2{
+    display: inline-block;
+}
+.footer .inner h2,
+.footer .inner p{
+    color: white;
+}
+
+/* ************* links *************** */
+ .footer .inner .links{
+    display: inline-block;
+ }
+.footer .inner .links img{
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: 0.3s;
+    padding: 8px 8px;
+ 
+}
+.footer .inner .links img{
+    .links img:hover 
+    opacity: 1;
+}
+
+.footer .inner .link1,
+.footer .inner .link2,
+.footer .inner .link3,
+.footer .inner .link4{
+ display: inline-block;
+ margin-right: 15px;
+}
+
+
+
+.footer .links .link2 a{
+   background-color: wheat;
+   color: #00BBA7;
+   border-radius: 20px;
+    transition: 0.3s;
+}
+.footer .links .a:hover{
+    background: tomato;
+    color: white;
+  
+}
+ .footer .inner .product{
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 40px;
+
+ }
+ 
+ .footer .inner .product h2,
+  .footer .inner .product a{
+    color: white;
+     display: block;
+}
+  
+
+/* ================ end footer ============= - */
+ .footer .inner .product,
+  .footer .inner .part1{
+    float: left;
+  }
+/* =============== clear============== */
+.clr{
+    clear: both;
+}
+
